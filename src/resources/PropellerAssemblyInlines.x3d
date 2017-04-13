@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN" "http://www.web3d.org/specifications/x3d-3.2.dtd">
+<X3D version="3.2" profile="Interchange" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.2.xsd">
+<head>
+    <meta name="title" content="PropellerAssemblyInlines.x3d"/>
+    <meta name="date" content="2013/12/26"/>
+    <meta name="creator" content="Open CASCADE S.A.S."/>
+    <meta name="license" content="Open CASCADE Technology Public License, attached or http://www.opencascade.org/getocc/license/license_old/"/>
+    <meta name="contributor" content="InteractiveMesh e.K. http://www.InteractiveMesh.org/impressum.html"/>
+    <meta name="generator" content="InteractiveMesh"/>
+</head>
+<Scene>
+  <Group DEF="Viewpoints">
+    <Viewpoint description="Engine overview" 
+      fieldOfView="0.785398"
+      centerOfRotation="54.60494 0.84032 -127.5"
+      orientation ="0.0 -1.0 0.0 2.4581852"
+      position="-211.846 0.84032 -454.7097" />
+    <Viewpoint description="Crankarm axis link" 
+      fieldOfView="0.7853982"
+      centerOfRotation="44.46891 13.654677 -103.50352"
+      orientation ="0.010221068 -0.70558214 -0.7085544 3.120892"
+      position="41.827484 104.425064 -103.12163" />    
+    <Viewpoint description="From inside of piston" 
+      fieldOfView="0.785398"
+      centerOfRotation="187.5 11.578611 -99.70411"
+      orientation ="-0.07154482 0.99477357 0.072848305 1.4603347"
+      position="203.0994 13.72793 -97.88179" />
+  </Group>    
+	<Inline DEF="InlineCrankarm" url="Crankarm.x3d"/>
+	<Inline DEF="InlineCylinderHead" url="CylinderHead.x3d"/>
+	<Inline DEF="InlineEngineBlock" url="EngineBlock.x3d"/>
+	<Inline DEF="InlinePiston" url="Piston.x3d"/>
+	<Inline DEF="InlinePistonWristPin" url="PistonWristPin.x3d"/>
+	<Inline DEF="InlinePropAxis" url="PropAxis.x3d"/>
+	<Inline DEF="InlinePropeller" url="Propeller.x3d"/>
+</Scene>
+</X3D>

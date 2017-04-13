@@ -1,0 +1,37 @@
+              
+PropellerAssembly
+-----------------
+
+Copyright (C) 2013 InteractiveMesh e.K.. All rights reserved.
+
+PropellerAssembly encompasses the X3D models:
+
+Crankarm.x3d
+CylinderHead.x3d
+EngineBlock.x3d
+Piston.x3d
+PistonWristPin.x3d
+PropAxis.x3d
+Propeller.x3d
+PropellerAssembly.x3d
+PropellerAssembly.x3dz
+PropellerAssemblyInlines.x3d
+
+They are derived from Open CASCADE models:
+
+CrankArm.rle, CylinderHead.rle, EngineBlock.rle, Piston.rle, and Propeller.rle.
+
+Redistribution and use are permitted according to the Open CASCADE Technology Public License (LGPL-like) which will be found in the folder of this file or at http://www.opencascade.org/getocc/license/license_old/
+
+-------------
+
+2013/12/26
+
+InteractiveMesh e.K.
+August Lammersdorf
+Hauptstraﬂe 28d, 85737 Ismaning
+Germany / Munich Area
+District court Munich HRA 89887
+www.InteractiveMesh.com/org
+
+
